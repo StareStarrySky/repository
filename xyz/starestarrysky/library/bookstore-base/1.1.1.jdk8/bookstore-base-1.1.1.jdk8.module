@@ -40,10 +40,10 @@
           "name": "bookstore-base-1.1.1.jdk8.jar",
           "url": "bookstore-base-1.1.1.jdk8.jar",
           "size": 8560,
-          "sha512": "eedaf148e2cf55f225a55fe9caaea345117ca935fc6287f8ac1c91221a6bf8d84ee14e77116f4ca54aa49a619a1135447a9656c55b2d143a371b520072bcbf32",
-          "sha256": "362e6e08c74f9f1539685317ef9897f32a70c451fc29861ae1e8c6cb3ff70af9",
-          "sha1": "40ad112af2217aa7b2f36aec1c25c86846a9ca35",
-          "md5": "4af70094a704a6f8872c99e7c43d9288"
+          "sha512": "349d509163ccab793f7379e0300387c19075990da5c4294ef1a9a568cef3c7a421a6a19267f121b66d6f2aea521c040c8f2f886495bef450632cb9bc27a5d6df",
+          "sha256": "0c6b19746d7afaa5f18542d1594ba40cb71acd40147f3b6297b1e5fcba214dd6",
+          "sha1": "7c8c7d8413e94a7f2f0aaf2fb57e6e693afc5e22",
+          "md5": "d47e7a54702065fc52de517a5b687aa8"
         }
       ]
     },
@@ -109,10 +109,10 @@
           "name": "bookstore-base-1.1.1.jdk8.jar",
           "url": "bookstore-base-1.1.1.jdk8.jar",
           "size": 8560,
-          "sha512": "eedaf148e2cf55f225a55fe9caaea345117ca935fc6287f8ac1c91221a6bf8d84ee14e77116f4ca54aa49a619a1135447a9656c55b2d143a371b520072bcbf32",
-          "sha256": "362e6e08c74f9f1539685317ef9897f32a70c451fc29861ae1e8c6cb3ff70af9",
-          "sha1": "40ad112af2217aa7b2f36aec1c25c86846a9ca35",
-          "md5": "4af70094a704a6f8872c99e7c43d9288"
+          "sha512": "349d509163ccab793f7379e0300387c19075990da5c4294ef1a9a568cef3c7a421a6a19267f121b66d6f2aea521c040c8f2f886495bef450632cb9bc27a5d6df",
+          "sha256": "0c6b19746d7afaa5f18542d1594ba40cb71acd40147f3b6297b1e5fcba214dd6",
+          "sha1": "7c8c7d8413e94a7f2f0aaf2fb57e6e693afc5e22",
+          "md5": "d47e7a54702065fc52de517a5b687aa8"
         }
       ]
     }
