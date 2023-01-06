@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.starestarrysky.library",
+    "module": "bookstore-jpa",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "javax.persistence",
+          "module": "javax.persistence-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "bookstore-jpa-1.1.0.jar",
+          "url": "bookstore-jpa-1.1.0.jar",
+          "size": 4318,
+          "sha512": "f4a85cff1218d1abd627f93b9b0f5e94ad2228ae19d8ccbc466a13682b42e9c48b565e054c0caa588c74523fb8bc84cc88e770250fc1210b161da0a4e4a6c17c",
+          "sha256": "7f28a3cc99310dd1212eee5599b6c202fa92310fda2982c31adb902ba94cb049",
+          "sha1": "7fc97e55e21ba8778998a7a4706abde7338a52ba",
+          "md5": "39419cfd27aa07873feb3dbf5c5eee26"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-dependencies",
+          "version": {
+            "requires": "2.7.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-dependencies",
+          "version": {
+            "requires": "2021.0.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "javax.persistence",
+          "module": "javax.persistence-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "bookstore-jpa-1.1.0.jar",
+          "url": "bookstore-jpa-1.1.0.jar",
+          "size": 4318,
+          "sha512": "f4a85cff1218d1abd627f93b9b0f5e94ad2228ae19d8ccbc466a13682b42e9c48b565e054c0caa588c74523fb8bc84cc88e770250fc1210b161da0a4e4a6c17c",
+          "sha256": "7f28a3cc99310dd1212eee5599b6c202fa92310fda2982c31adb902ba94cb049",
+          "sha1": "7fc97e55e21ba8778998a7a4706abde7338a52ba",
+          "md5": "39419cfd27aa07873feb3dbf5c5eee26"
+        }
+      ]
+    }
+  ]
+}
