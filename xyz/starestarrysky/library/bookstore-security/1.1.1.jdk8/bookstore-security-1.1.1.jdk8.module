@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.starestarrysky.library",
+    "module": "bookstore-security",
+    "version": "1.1.1.jdk8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-security"
+        }
+      ],
+      "files": [
+        {
+          "name": "bookstore-security-1.1.1.jdk8.jar",
+          "url": "bookstore-security-1.1.1.jdk8.jar",
+          "size": 261,
+          "sha512": "607eaaee657f33d615d54c553291973530f50466f9dac03968921c6acec030a462a9779025695d4e6489492062eb86b7d63c33b889c1cd21f3306153f07a6f82",
+          "sha256": "3e9f5066ede54e36731d41cd70631471edf45336e71bb6eddcb72455ffb3fa71",
+          "sha1": "7241a656a077a7e368cecf8efd9fb65546e4be8e",
+          "md5": "98796ee79aac123b588905295c583d1c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-dependencies",
+          "version": {
+            "requires": "2.7.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-dependencies",
+          "version": {
+            "requires": "2021.0.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-security"
+        }
+      ],
+      "files": [
+        {
+          "name": "bookstore-security-1.1.1.jdk8.jar",
+          "url": "bookstore-security-1.1.1.jdk8.jar",
+          "size": 261,
+          "sha512": "607eaaee657f33d615d54c553291973530f50466f9dac03968921c6acec030a462a9779025695d4e6489492062eb86b7d63c33b889c1cd21f3306153f07a6f82",
+          "sha256": "3e9f5066ede54e36731d41cd70631471edf45336e71bb6eddcb72455ffb3fa71",
+          "sha1": "7241a656a077a7e368cecf8efd9fb65546e4be8e",
+          "md5": "98796ee79aac123b588905295c583d1c"
+        }
+      ]
+    }
+  ]
+}

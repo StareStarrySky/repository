@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>xyz.starestarrysky.library</groupId>
+  <artifactId>bookstore-jpa</artifactId>
+  <versioning>
+    <latest>1.1.1.jdk8</latest>
+    <release>1.1.1.jdk8</release>
+    <versions>
+      <version>1.1.1.jdk8</version>
+    </versions>
+    <lastUpdated>20230106090617</lastUpdated>
+  </versioning>
+</metadata>
